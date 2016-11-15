@@ -1,0 +1,14 @@
+---
+To update: https://github.com/uikit/bower-uikit/tree/master/scss
+---
+
+@charset "utf-8";
+
+@import "uikit-mixins.scss";
+@import "uikit-variables.scss";
+
+// your custom code goes here, e.g. mixins, variables
+$icon-font-path: "../assets/fonts";
+
+@import "uikit.scss";
+// @import "components/autocomplete.scss";

@@ -1,0 +1,37 @@
+<section id="sponsors">
+  <h2>Sponsors</h2>
+
+  <h3>Want to be a sponsor? Check out our <a href="{{ "/assets/files/sponsorship-proposal.pdf" | relative_url }}">sponsorship proposal</a>.</h3>
+
+  <h4 class="sponsors-platinum"><strong>Platinum</strong></h4>
+
+  <div class="uk-grid">
+    {% for sponsor in site.data.sponsors-platinum %}
+      {% include sponsor.html %}
+    {% endfor %}
+  </div>
+
+  <h4 class="sponsors-gold"><strong>Gold</strong></h4>
+
+  <div class="uk-grid">
+    {% for sponsor in site.data.sponsors-gold %}
+      {% include sponsor.html %}
+    {% endfor %}
+  </div>
+
+  <h4 class="sponsors-silver"><strong>Silver</strong></h4>
+
+  <div class="uk-grid">
+    {% for sponsor in site.data.sponsors-silver %}
+      {% include sponsor.html %}
+    {% endfor %}
+  </div>
+
+  <h4 class="sponsors-bronze"><strong>Bronze</strong></h4>
+
+  <div class="uk-grid">
+    {% for sponsor in site.data.sponsors-bronze %}
+      {% include sponsor.html %}
+    {% endfor %}
+  </div>
+</section>

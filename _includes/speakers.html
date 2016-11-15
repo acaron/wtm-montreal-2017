@@ -1,0 +1,17 @@
+<section id="speakers">
+  <h2>Speakers</h2>
+
+  <div class="uk-grid">
+    {% for speaker in site.data.speakers %}
+      <div class="uk-width-1-4">
+        {% capture image_path %}/assets/images/speakers/{{ speaker[0] }}.jpg{% endcapture %}
+        <img src="{{ image_path | relative_url }}" class="img-circle" width="150" height="150" alt="{{ speaker[1].name }}">
+
+        <h3>
+          {{ speaker[1].name }}<br>
+          <small>{{ speaker[1].title }}</small>
+        </h3>
+      </div>
+    {% endfor %}
+  </div>
+</section>
