@@ -1,21 +1,23 @@
-<section id="schedule">
-  <h2>Schedule</h2>
+<section id="schedule" class="section-primary">
+  <div class="uk-container uk-container-center">
+    <h2>Schedule</h2>
 
-  <div class="uk-grid">
-    <div class="uk-width-1-2">
-      <h3>Day 1</h3>
+    <div class="uk-grid">
+      <div class="uk-width-1-2">
+        <h3>Day 1</h3>
 
-      {% for schedule in site.data.schedule-day-1 %}
-        {% include day.html %}
-      {% endfor %}
-    </div>
+        {% for schedule in site.data.schedule-day-1 %}
+          {% include day.html %}
+        {% endfor %}
+      </div>
 
-    <div class="uk-width-1-2">
-      <h3>Day 2</h3>
+      <div class="uk-width-1-2">
+        <h3>Day 2</h3>
 
-      {% for schedule in site.data.schedule-day-2 %}
-        {% include day.html %}
-      {% endfor %}
+        {% for schedule in site.data.schedule-day-2 %}
+          {% include day.html %}
+        {% endfor %}
+      </div>
     </div>
   </div>
 </section>

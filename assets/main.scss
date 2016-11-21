@@ -7,8 +7,93 @@ To update: https://github.com/uikit/bower-uikit/tree/master/scss
 @import "uikit-mixins.scss";
 @import "uikit-variables.scss";
 
-// your custom code goes here, e.g. mixins, variables
+$base-body-font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$button-background: #00bea4;
+$button-color: #fff;
+$button-hover-background: #1ce9b6;
+$button-hover-color: #fff;
+$button-active-background: #1ce9b6;
+$button-active-color: #fff;
+$button-primary-background: #4285f4;
+$button-primary-hover-background: #4fc3f7;
+$button-primary-active-background: #4fc3f7;
 $icon-font-path: "../assets/fonts";
+$navbar-background: transparent;
+$navbar-nav-font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$navbar-nav-hover-background: transparent;
+$navbar-nav-onclick-background: transparent;
+$navbar-nav-active-background: transparent;
+
+header {
+  height: 100px;
+
+  div.uk-flex {
+    a {
+      img {
+        height: 60px;
+      }
+    }
+  }
+}
+
+section {
+  padding: 40px 0;
+
+  &.section-primary {
+    background-color: #00bea4;
+  }
+
+  &.section-secondary {
+    background-color: #4285f4;
+  }
+
+  &.section-primary,
+  &.section-secondary {
+    h1, h2, p {
+      color: #fff;
+    }
+  }
+}
+
+section#header {
+  padding: 0;
+
+  > div {
+    background-image: url('../assets/images/header.jpg');
+    -webkit-clip-path: polygon(0 0, 0 100%, 100% 90%, 100% 0);
+    clip-path: polygon(0 0, 0 100%, 100% 90%, 100% 0);
+    overflow: hidden;
+
+    div {
+      h1 {
+        span, small {
+          font-weight: 200;
+        }
+      }
+
+      p {
+        font-weight: 200;
+      }
+    }
+  }
+}
+
+section#subscription {
+  padding: 0;
+  width: 500px;
+  height: 200px;
+  position: absolute;
+  left: 50%;
+  margin-left: -250px;
+  background-color: #fff;
+  bottom: -100px;
+  z-index: 2;
+  text-align: center;
+  box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.65);
+}
+
+section#about {
+  padding-top: 140px;
+}
 
 @import "uikit.scss";
-// @import "components/autocomplete.scss";

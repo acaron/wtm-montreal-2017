@@ -1,25 +1,27 @@
 <section id="speakers">
-  <h2>Speakers</h2>
+  <div class="uk-container uk-container-center">
+    <h2>Speakers</h2>
 
-  <div class="uk-grid">
-    {% for speaker in site.data.speakers %}
+    <div class="uk-grid">
+      {% for speaker in site.data.speakers %}
+        <div class="uk-width-1-4">
+          {% capture image_path %}/assets/images/speakers/{{ speaker[0] }}.jpg{% endcapture %}
+          <img src="{{ image_path | relative_url }}" class="img-circle" width="150" height="150" alt="{{ speaker[1].name }}">
+
+          <h3>
+            {{ speaker[1].name }}<br>
+            <small>{{ speaker[1].title }}</small>
+          </h3>
+        </div>
+      {% endfor %}
+
       <div class="uk-width-1-4">
-        {% capture image_path %}/assets/images/speakers/{{ speaker[0] }}.jpg{% endcapture %}
-        <img src="{{ image_path | relative_url }}" class="img-circle" width="150" height="150" alt="{{ speaker[1].name }}">
+        <h3>Submit your talk</h3>
 
-        <h3>
-          {{ speaker[1].name }}<br>
-          <small>{{ speaker[1].title }}</small>
-        </h3>
+        <p>
+          The CFP is open until January 15th, 2017. <a href="https://www.papercall.io/wtm-montreal-2017" target="_blank">Apply now</a>
+        </p>
       </div>
-    {% endfor %}
-
-    <div class="uk-width-1-4">
-      <h3>Submit your talk</h3>
-
-      <p>
-        The CFP is open until January 15th, 2017. <a href="https://www.papercall.io/wtm-montreal-2017" target="_blank">Apply now</a>
-      </p>
     </div>
   </div>
 </section>
