@@ -42,7 +42,7 @@ $base-heading-text-transform:                    none !default;
 $base-heading-margin-top:                        25px !default;
 $base-h1-font-size:                              36px !default;
 $base-h1-line-height:                            42px !default;
-$base-h2-font-size:                              24px !default;
+$base-h2-font-size:                              38px;
 $base-h2-line-height:                            30px !default;
 $base-h3-font-size:                              18px !default;
 $base-h3-line-height:                            24px !default;
@@ -356,8 +356,23 @@ h1, .uk-h1 {
 
 h2, .uk-h2 {
     font-size: $base-h2-font-size;
-    line-height: $base-h2-line-height;
+    font-weight: 900;
     @include hook-base-h2();
+    line-height: $base-h2-line-height;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+
+    &:after {
+        background: #4285f4;
+        content: "";
+        display: block;
+        height: 5px;
+        left: 50%;
+        margin-top: 15px;
+        position: absolute;
+        transform: translateX(-50%);
+        width: 100px;
+    }
 }
 
 h3, .uk-h3 {
