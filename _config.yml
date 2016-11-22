@@ -16,9 +16,9 @@
 title: Women Techmakers Montreal 2017
 email: info@wtmmontreal.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Women Techmakers is a program created by Google to celebrate International Women's
+  Day and to highlight the talent of women in technology. In 2017, we decided to
+  organize the second edition in Montreal.
 baseurl: ""
 url: http://www.wtmmontreal.com
 google_analytics: UA-72837204-1
