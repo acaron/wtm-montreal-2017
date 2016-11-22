@@ -6,7 +6,7 @@
       {% for speaker in site.data.speakers %}
         <div class="uk-width-1-4">
           {% capture image_path %}/assets/images/speakers/{{ speaker[0] }}.jpg{% endcapture %}
-          <img src="{{ image_path | relative_url }}" class="uk-border-circle" width="300" height="300" alt="{{ speaker[1].name }}">
+          <img src="{{ image_path | relative_url }}" width="300" height="300" alt="{{ speaker[1].name }}">
 
           <h3 class="uk-text-center">
             {{ speaker[1].name }}
@@ -20,7 +20,7 @@
 
       <div class="uk-width-1-4">
         <a href="https://www.papercall.io/wtm-montreal-2017" target="_blank">
-          <img src="{{ "/assets/images/placeholder.png" | relative_url }}" class="uk-border-circle" width="300" height="300" alt="Submit your talk">
+          <img src="{{ "/assets/images/placeholder.png" | relative_url }}" width="300" height="300" alt="Submit your talk">
         </a>
 
         <h3 class="uk-text-center">Submit your talk</h3>
