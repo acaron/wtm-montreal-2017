@@ -1,5 +1,5 @@
 ---
-To update: https://github.com/uikit/bower-uikit/tree/master/scss
+To update: https: //github.com/uikit/bower-uikit/tree/master/scss
 ---
 
 @charset "utf-8";
@@ -23,6 +23,7 @@ $navbar-nav-font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-seri
 $navbar-nav-hover-background: transparent;
 $navbar-nav-onclick-background: transparent;
 $navbar-nav-active-background: transparent;
+$base-h2-font-size: 38px;
 
 header {
   height: 100px;
@@ -87,7 +88,7 @@ section#subscription {
   background-color: #fff;
   bottom: -100px;
   z-index: 2;
-  box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.65);
+  box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.65);
 
   .uk-form {
     .uk-button {
@@ -101,3 +102,22 @@ section#about {
 }
 
 @import "uikit.scss";
+
+h2, .uk-h2 {
+  font-weight: 900;
+  margin-bottom: 50px;
+  text-align: center;
+  text-transform: uppercase;
+
+  &:after {
+    background: #4285f4;
+    content: "";
+    display: block;
+    height: 5px;
+    left: 50%;
+    margin-top: 15px;
+    position: absolute;
+    transform: translateX(-50%);
+    width: 100px;
+  }
+}
