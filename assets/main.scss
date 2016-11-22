@@ -121,3 +121,69 @@ h2, .uk-h2 {
     width: 100px;
   }
 }
+
+section {
+  &#venue, &#accomodations {
+    margin: 0 auto;
+    max-width: 100%;
+    width: 800px;
+
+    .uk-container {
+      padding: 0;
+    }
+  }
+}
+
+.card {
+  min-height: 375px;
+  position: relative;
+
+  img {
+    display: block;
+    margin: 0;
+    max-width: 100%;
+    position: absolute;
+    top: 0;
+    width: 375px;
+  }
+
+  .card-content {
+    background: #ffffff;
+    padding: 35px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 450px;
+  }
+
+  @media (max-width: $breakpoint-small-max) {
+    img, .card-content {
+      position: relative;
+      width: 100%;
+    }
+
+    .card-content {
+      box-sizing: border-box;
+    }
+  }
+
+  &.card-left-oriented {
+    img {
+      left: 0;
+    }
+
+    .card-content {
+      right: 0;
+    }
+  }
+
+  &.card-right-oriented {
+    img {
+      right: 0;
+    }
+
+    .card-content {
+      left: 0;
+    }
+  }
+}
