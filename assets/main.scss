@@ -7,7 +7,7 @@ To update: https://github.com/uikit/bower-uikit/tree/master/scss
 @import "uikit-mixins.scss";
 @import "uikit-variables.scss";
 
-$base-body-font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-body-font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $button-background: #00bea4;
 $button-color: #fff;
 $button-hover-background: #1ce9b6;
@@ -19,7 +19,7 @@ $button-primary-hover-background: #4fc3f7;
 $button-primary-active-background: #4fc3f7;
 $icon-font-path: "../assets/fonts";
 $navbar-background: transparent;
-$navbar-nav-font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$navbar-nav-font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $navbar-nav-hover-background: transparent;
 $navbar-nav-onclick-background: transparent;
 $navbar-nav-active-background: transparent;
@@ -67,12 +67,12 @@ section#header {
     div {
       h1 {
         span, small {
-          font-weight: 200;
+          font-weight: 300;
         }
       }
 
       p {
-        font-weight: 200;
+        font-weight: 300;
       }
     }
   }
