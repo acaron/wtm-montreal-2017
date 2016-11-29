@@ -24,6 +24,10 @@ $navbar-nav-onclick-background: transparent;
 $navbar-nav-active-background: transparent;
 $base-h2-font-size: 38px;
 
+a, button {
+  transition: background 0.25s ease, color 0.25s ease;
+}
+
 header {
   height: 100px;
 
@@ -78,6 +82,60 @@ section#header {
   }
 }
 
+section#speakers, section#sponsors {
+  .uk-grid {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+section#buy-tickets {
+  .uk-container {
+    background-color: #4285f4;
+    max-width: 100%;
+    margin-bottom: 45px;
+    padding: 45px;
+    position: relative;
+    width: 680px;
+
+    &:after {
+      border-style: solid;
+      border-width: 0 0 50px 680px;
+      border-color: transparent transparent #fff transparent;
+      bottom: 0;
+      content: "";
+      display: block;
+      height: 0;
+      left: 0;
+      position: absolute;
+      width: 0;
+    }
+
+    h2 {
+      color: #ffffff;
+      font-size: 24px;
+      margin: 0 auto 15px;
+      width: 50%;
+
+      &:after {
+        display: none;
+      }
+    }
+
+    a {
+      bottom: 10px;
+      left: 50%;
+      position: absolute;
+      transform: translateX(-50%);
+      z-index: 1;
+    }
+  }
+}
+
 section#subscription {
   padding: 30px;
   width: 500px;
@@ -90,8 +148,14 @@ section#subscription {
   box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.65);
 
   .uk-form {
+    .uk-form-large {
+      width: 75%;
+    }
+
     .uk-button {
       color: #fff;
+      margin-left: -5px;
+      padding: 0 15px 0 13px;
     }
   }
 }
@@ -184,5 +248,24 @@ section {
     .card-content {
       left: 0;
     }
+  }
+}
+
+.input-group {
+  input {
+    margin: 0;
+  }
+
+  button {
+    margin: 0;
+  }
+}
+
+footer {
+  background-color: #4285f4;
+  padding: 45px 0 25px;
+
+  p, a, .uk-icon-hover {
+    color: #ffffff;
   }
 }
