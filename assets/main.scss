@@ -28,6 +28,28 @@ a, button {
   transition: background 0.25s ease, color 0.25s ease;
 }
 
+h4 {
+  &[class*="sponsors-"] {
+    text-transform: uppercase;
+  }
+
+  &.sponsors-platinum {
+    color: #A0B8C7;
+  }
+
+  &.sponsors-gold {
+    color: #D4AF37;
+  }
+
+  &.sponsors-silver {
+    color: #A5A5A5;
+  }
+
+  &.sponsors-bronze {
+    color: #CD7F32;
+  }
+}
+
 header {
   height: 100px;
 
@@ -41,7 +63,7 @@ header {
 }
 
 section {
-  padding: 40px 0;
+  padding: 60px 0;
 
   &.section-primary {
     background-color: #00bea4;
@@ -82,17 +104,6 @@ section#header {
   }
 }
 
-section#speakers, section#sponsors {
-  .uk-grid {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-}
-
 section#buy-tickets {
   .uk-container {
     background-color: #4285f4;
@@ -118,20 +129,24 @@ section#buy-tickets {
     h2 {
       color: #ffffff;
       font-size: 24px;
-      margin: 0 auto 15px;
-      width: 50%;
+      width: 75%;
+      margin: 0 auto 40px;
 
       &:after {
         display: none;
       }
     }
 
-    a {
+    a.uk-button {
       bottom: 10px;
       left: 50%;
       position: absolute;
       transform: translateX(-50%);
       z-index: 1;
+      min-height: 50px;
+      padding: 0 20px;
+      line-height: 50px;
+      font-size: 22px;
     }
   }
 }

@@ -4,7 +4,7 @@
   description: 
 
 - time: 9:00 AM - 9:30 AM
-  speaker: maeghan-smulders
+  speaker: 
   title: Keynote
   description: 
 
@@ -14,9 +14,9 @@
   description: 
 
 - time: 9:45 AM - 10:45 AM
-  speaker: nancy-naluz
-  title: "Diversity in Tech: Addressing the Pipeline and Creating the Culture"
-  description: This talk aims to discuss the ways in which we can foster gender diversity in the tech industry. The pipeline to enter the industry is a visible theme when discussing the issue of women in tech. I intend to present this as well as open a discussion surrounding the current culture that prevents us from maintaining that potential diversity.
+  speaker: 
+  title: Session 1
+  description: 
 
 - time: 10:45 AM - 11:00 AM
   speaker: 

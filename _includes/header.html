@@ -7,7 +7,7 @@
 
       <nav class="uk-navbar uk-flex-item-1">
         <div class="uk-navbar-flip">
-          <ul class="uk-navbar-nav">
+          <ul class="uk-navbar-nav uk-hidden-small">
               <li><a href="#speakers" data-uk-smooth-scroll>Speakers</a></li>
               <li><a href="#venue" data-uk-smooth-scroll>Venue</a></li>
               <li><a href="#accomodations" data-uk-smooth-scroll>Accomodations</a></li>
@@ -15,10 +15,25 @@
               <li><a href="#sponsors" data-uk-smooth-scroll>Sponsors</a></li>
               <li><a href="https://wtmmontreal2017.eventbrite.com" target="_blank">Buy Tickets</a></li>
           </ul>
+
+          <a href="#main-menu" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
         </div>
       </nav>
   </div>
 </header>
+
+<div id="main-menu" class="uk-offcanvas">
+  <div class="uk-offcanvas-bar">
+    <ul class="uk-nav uk-nav-offcanvas uk-nav-parent-icon" data-uk-nav>
+      <li><a href="#speakers" data-uk-smooth-scroll>Speakers</a></li>
+      <li><a href="#venue" data-uk-smooth-scroll>Venue</a></li>
+      <li><a href="#accomodations" data-uk-smooth-scroll>Accomodations</a></li>
+      <li><a href="#schedule" data-uk-smooth-scroll>Schedule</a></li>
+      <li><a href="#sponsors" data-uk-smooth-scroll>Sponsors</a></li>
+      <li><a href="https://wtmmontreal2017.eventbrite.com" target="_blank">Buy Tickets</a></li>
+    </ul>
+  </div>
+</div>
 
 <section id="header" class="section-primary">
   <div class="uk-cover-background uk-width-1-1 uk-position-relative uk-position-z-index">
