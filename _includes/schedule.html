@@ -2,22 +2,40 @@
   <div class="uk-container uk-container-center">
     <h2>Schedule</h2>
 
-    <div class="uk-grid">
-      <div class="uk-width-1-2">
-        <h3>Day 1</h3>
+    <ul class="uk-tab" data-uk-tab="{connect:'#schedule-tabs'}">
+      <li><a href="">APRIL 8</a></li>
+      <li><a href="">APRIL 9</a></li>
+    </ul>
 
-        {% for schedule in site.data.schedule-day-1 %}
-          {% include day.html %}
-        {% endfor %}
-      </div>
-
-      <div class="uk-width-1-2">
-        <h3>Day 2</h3>
-
-        {% for schedule in site.data.schedule-day-2 %}
-          {% include day.html %}
-        {% endfor %}
-      </div>
-    </div>
+    <ul id="schedule-tabs" class="uk-switcher uk-margin">
+      <li>
+        <ul class="schedule">
+          {% for time in site.data.schedule-day-1 %}
+            <li>
+              <span class="schedule-time">{{ time[0] }}</span>
+              <ul>
+                {% for schedule in time[1] %}
+                  <li>{% include day.html %}</li>
+                {% endfor %}
+              </ul>
+            </li>
+          {% endfor %}
+        </ul>
+      </li>
+      <li>
+        <ul class="schedule">
+          {% for time in site.data.schedule-day-2 %}
+            <li>
+              <span class="schedule-time">{{ time[0] }}</span>
+              <ul>
+                {% for schedule in time[1] %}
+                  <li>{% include day.html %}</li>
+                {% endfor %}
+              </ul>
+            </li>
+          {% endfor %}
+        </ul>
+      </li>
+    </ul>
   </div>
 </section>

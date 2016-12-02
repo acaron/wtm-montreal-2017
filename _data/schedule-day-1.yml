@@ -1,59 +1,97 @@
-- time: 8:00 AM - 9:00 AM
-  speaker: 
-  title: Check-in & Breakfast
-  description: 
-
-- time: 9:00 AM - 9:30 AM
-  speaker: 
-  title: Keynote
-  description: 
-
-- time: 9:30 AM - 9:45 AM
-  speaker: 
-  title: Break
-  description: 
-
-- time: 9:45 AM - 10:45 AM
-  speaker: 
-  title: Session 1
-  description: 
-
-- time: 10:45 AM - 11:00 AM
-  speaker: 
-  title: Break
-  description: 
-
-- time: 11:00 AM - 12:00 PM
-  speaker: 
-  title: Session 2
-  description: 
-
-- time: 12:00 PM - 1:30 PM
-  speaker: 
-  title: Lunch
-  description: 
-
-- time: 1:30 PM - 2:30 PM
-  speaker: 
-  title: Session 3
-  description: 
-
-- time: 2:30 PM - 3:30 PM
-  speaker: 
-  title: Session 4
-  description: 
-
-- time: 3:30 PM - 4:00 PM
-  speaker: 
-  title: Break
-  description: 
-
-- time: 4:00 PM - 5:00 PM
-  speaker: 
-  title: Session 5
-  description: 
-
-- time: 5:00 PM - 6:00 PM
-  speaker: 
-  title: Panel
-  description: 
+"8:00 AM":
+  - speaker: 
+    title: Check-in & Breakfast
+    description: 
+    time: 60 minutes
+    room: Hall A
+"9:00 AM":
+  - speaker: 
+    title: Keynote
+    description: 
+    time: 60 minutes
+    room: Hall A
+"9:30 AM":
+  - speaker: 
+    title: Break
+    description: 
+    time: 30 minutes
+    room: Hall A
+"9:45 AM":
+  - speaker: 
+    title: Session 1
+    description: 
+    time: 60 minutes
+    room: Hall A
+  - speaker: 
+    title: Session 2
+    description: 
+    time: 60 minutes
+    room: A-1600
+"10:45 AM":
+  - speaker: 
+    title: Break
+    description: 
+    time: 15 minutes
+    room: Hall A
+"11:00 AM":
+  - speaker: 
+    title: Session 3
+    description: 
+    time: 60 minutes
+    room: Hall A
+  - speaker: 
+    title: Session 4
+    description: 
+    time: 60 minutes
+    room: A-1600
+"12:00 PM":
+  - speaker: 
+    title: Lunch
+    description: 
+    time: 90 minutes
+    room: Hall A
+"1:30 PM":
+  - speaker: 
+    title: Session 5
+    description: 
+    time: 60 minutes
+    room: Hall A
+  - speaker: 
+    title: Session 6
+    description: 
+    time: 60 minutes
+    room: A-1600
+"2:30 PM":
+  - speaker: 
+    title: Session 7
+    description: 
+    time: 60 minutes
+    room: Hall A
+  - speaker: 
+    title: Session 8
+    description: 
+    time: 60 minutes
+    room: A-1600
+"3:30 PM":
+  - speaker: 
+    title: Break
+    description: 
+    time: 30 minutes
+    room: Hall A
+"4:00 PM":
+  - speaker: 
+    title: Session 9
+    description: 
+    time: 60 minutes
+    room: Hall A
+  - speaker: 
+    title: Session 10
+    description: 
+    time: 60 minutes
+    room: A-1600
+"5:00 PM":
+  - speaker: 
+    title: Panel
+    description: 
+    time: 60 minutes
+    room: Hall A

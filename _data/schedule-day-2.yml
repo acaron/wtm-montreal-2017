@@ -1,49 +1,80 @@
-- time: 9:00 AM - 10:00 AM
-  speaker: 
-  title: Check-in & Breakfast
-  description: 
-
-- time: 10:00 AM - 11:00 PM
-  speaker: 
-  title: Session 6
-  description: 
-
-- time: 11:00 AM - 12:00 PM
-  speaker: 
-  title: Session 7
-  description: 
-
-- time: 12:00 PM - 1:30 PM
-  speaker: 
-  title: Lunch
-  description: 
-
-- time: 1:30 PM - 2:00 PM
-  speaker: 
-  title: Lightning talks
-  description: 
-
-- time: 2:00 PM - 2:15 PM
-  speaker: 
-  title: Break
-  description: 
-
-- time: 2:15 PM - 3:15 PM
-  speaker: 
-  title: Session 8
-  description: 
-
-- time: 3:15 PM - 3:30 PM
-  speaker: 
-  title: Break
-  description: 
-
-- time: 3:30 PM - 4:30 PM
-  speaker: 
-  title: Session 9
-  description: 
-
-- time: 4:30 PM - 5:00 PM
-  speaker: 
-  title: Closing
-  description: 
+"9:00 AM":
+  - speaker: 
+    title: Check-in & Breakfast
+    description: 
+    time: 60 minutes
+    room: Hall A
+"10:00 AM":
+  - speaker: 
+    title: Session 11
+    description: 
+    time: 60 minutes
+    room: Hall A
+  - speaker: 
+    title: Session 12
+    description: 
+    time: 60 minutes
+    room: A-1600
+"11:00 AM":
+  - speaker: 
+    title: Session 13
+    description: 
+    time: 60 minutes
+    room: Hall A
+  - speaker: 
+    title: Session 14
+    description: 
+    time: 60 minutes
+    room: A-1600
+"12:00 PM":
+  - speaker: 
+    title: Lunch
+    description: 
+    time: 90 minutes
+    room: Hall A
+"1:30 PM":
+  - speaker: 
+    title: Lightning talks
+    description: 
+    time: 30 minutes
+    room: Hall A
+"2:00 PM":
+  - speaker: 
+    title: Break
+    description: 
+    time: 14 minutes
+    room: Hall A
+"2:15 PM":
+  - speaker: 
+    title: Session 15
+    description: 
+    time: 60 minutes
+    room: Hall A
+  - speaker: 
+    title: Session 16
+    description: 
+    time: 60 minutes
+    room: A-1600
+"3:15 PM":
+  - speaker: 
+    title: Break
+    description: 
+    time: 15 minutes
+    room: Hall A
+"3:30 PM":
+  - speaker: 
+    title: Session 17
+    description: 
+    time: 60 minutes
+    room: Hall A
+  - speaker: 
+    title: Session 18
+    description: 
+    time: 60 minutes
+    room: A-1600
+"4:30 PM":
+  - speaker: 
+    title: Closing
+    description: 
+    time: 30 minutes
+    room: Hall A
