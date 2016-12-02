@@ -284,3 +284,61 @@ footer {
     color: #ffffff;
   }
 }
+
+@media (max-width: 959px) {
+  section#subscription {
+    bottom: -150px;
+  }
+
+  section#about {
+    padding-top: 190px;
+  }
+}
+
+@media (max-width: 767px) {
+  h2 {
+    font-size: 32px;
+  }
+
+  section#header {
+    max-height: 400px;
+
+    div,
+    canvas {
+      max-height: 400px;
+    }
+  }
+
+  section#subscription {
+    width: inherit;
+    position: inherit;
+    left: inherit;
+    margin-left: inherit;
+    bottom: inherit;
+  }
+
+  section#about {
+    padding-top: 60px;
+  }
+}
+
+@media (max-width: 480px) {
+  h2 {
+    font-size: 28px;
+  }
+
+  .uk-heading-large {
+    font-size: 30px;
+    line-height: 36px;
+  }
+
+  section#header {
+    max-height: 300px;
+
+    div,
+    canvas {
+      max-height: 300px;
+    }
+  }
+}
+
