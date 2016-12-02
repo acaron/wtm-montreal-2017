@@ -216,35 +216,6 @@ section {
   min-height: 375px;
   position: relative;
 
-  img {
-    display: block;
-    margin: 0;
-    max-width: 100%;
-    position: absolute;
-    top: 0;
-    width: 375px;
-  }
-
-  .card-content {
-    background: #ffffff;
-    padding: 35px;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 450px;
-  }
-
-  @media (max-width: $breakpoint-small-max) {
-    img, .card-content {
-      position: relative;
-      width: 100%;
-    }
-
-    .card-content {
-      box-sizing: border-box;
-    }
-  }
-
   &.card-left-oriented {
     img {
       left: 0;
@@ -263,6 +234,24 @@ section {
     .card-content {
       left: 0;
     }
+  }
+
+  img {
+    display: block;
+    margin: 0;
+    max-width: 100%;
+    position: absolute;
+    top: 0;
+    width: 375px;
+  }
+
+  .card-content {
+    background: #ffffff;
+    padding: 35px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 450px;
   }
 }
 
@@ -319,6 +308,50 @@ footer {
 
   section#about {
     padding-top: 60px;
+  }
+
+  section#venue {
+    width: inherit;
+  }
+
+  .card {
+    min-height: inherit;
+
+    &.card-left-oriented {
+      img {
+        left: inherit;
+      }
+
+      .card-content {
+        right: inherit;
+      }
+    }
+
+    &.card-right-oriented {
+      img {
+        right: inherit;
+      }
+
+      .card-content {
+        left: inherit;
+      }
+    }
+
+    img {
+      position: inherit;
+      top: inherit;
+      margin-bottom: inherit!important;
+      position: inherit;
+      width: 100%;
+    }
+
+    .card-content {
+      position: inherit;
+      top: inherit;
+      transform: inherit;
+      width: inherit;
+      padding-bottom: 0;
+    }
   }
 }
 
