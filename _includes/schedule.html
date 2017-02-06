@@ -1,43 +1,55 @@
-<section id="schedule" class="section-primary">
+<section id="schedule">
   <div class="uk-container uk-container-center">
     <h2>Schedule</h2>
 
-    <p class="uk-text-center">Coming on February 1st, 2017. We will receive speakers from over the world this year, stay tuned!</p>
-
-    <!-- <ul class="uk-tab" data-uk-tab="{connect:'#schedule-tabs'}">
-      <li><a href="">APRIL 8</a></li>
-      <li><a href="">APRIL 9</a></li>
+    <ul class="uk-tab" data-uk-tab="{connect:'#schedule-tabs'}">
+      <li><a href="">APRIL 1</a></li>
+      <li><a href="">APRIL 2</a></li>
     </ul>
 
     <ul id="schedule-tabs" class="uk-switcher uk-margin">
       <li>
-        <ul class="schedule">
-          {% for time in site.data.schedule-day-1 %}
-            <li>
-              <span class="schedule-time">{{ time[0] }}</span>
-              <ul>
-                {% for schedule in time[1] %}
-                  <li>{% include day.html %}</li>
-                {% endfor %}
-              </ul>
-            </li>
-          {% endfor %}
-        </ul>
+        <div class="uk-container uk-container-center uk-text-center">
+          <div class="uk-grid uk-flex uk-flex-center">
+            {% for time in site.data.schedule-day-1 %}
+              <div class="uk-width-1-1">
+                <span class="schedule-time">{{ time[0] }}</span>
+              </div>
+
+              <div class="uk-width-1-1">
+                <div class="uk-grid uk-flex uk-flex-center">
+                  {% for schedule in time[1] %}
+                    <div class="uk-width-1-2 uk-width-small-1-2">
+                      {% include day.html %}
+                    </div>
+                  {% endfor %}
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
       </li>
       <li>
-        <ul class="schedule">
-          {% for time in site.data.schedule-day-2 %}
-            <li>
-              <span class="schedule-time">{{ time[0] }}</span>
-              <ul>
-                {% for schedule in time[1] %}
-                  <li>{% include day.html %}</li>
-                {% endfor %}
-              </ul>
-            </li>
-          {% endfor %}
-        </ul>
+        <div class="uk-container uk-container-center uk-text-center">
+          <div class="uk-grid uk-flex uk-flex-center">
+            {% for time in site.data.schedule-day-2 %}
+              <div class="uk-width-1-1">
+                <span class="schedule-time">{{ time[0] }}</span>
+              </div>
+
+              <div class="uk-width-1-1">
+                <div class="uk-grid uk-flex uk-flex-center">
+                  {% for schedule in time[1] %}
+                    <div class="uk-width-1-2 uk-width-small-1-2">
+                      {% include day.html %}
+                    </div>
+                  {% endfor %}
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
       </li>
-    </ul> -->
+    </ul>
   </div>
 </section>

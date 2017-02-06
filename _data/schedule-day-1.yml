@@ -5,42 +5,30 @@
     time: 60 minutes
     room: Hall A
 "9:00 AM":
-  - speaker: 
-    title: Keynote
+  - speaker: alicia-v-carr
+    title: "Keynote: How I become a developer later in life and as Women we can make our own"
     description: 
     time: 60 minutes
     room: Hall A
-"9:30 AM":
-  - speaker: 
-    title: Break
-    description: 
-    time: 30 minutes
-    room: Hall A
-"9:45 AM":
-  - speaker: 
-    title: Session 1
+"10:00 AM":
+  - speaker: daniella-niyonkuru
+    title: "How Tech Almost Missed Out on Me: A true story from a not-so-stereotypical techmaker"
     description: 
     time: 60 minutes
     room: Hall A
-  - speaker: 
-    title: Session 2
+  - speaker: nitya-narasimhan
+    title: "Real-Time & Reactive Apps: Rapid Prototyping With Firebase"
     description: 
     time: 60 minutes
     room: A-1600
-"10:45 AM":
-  - speaker: 
-    title: Break
-    description: 
-    time: 15 minutes
-    room: Hall A
 "11:00 AM":
-  - speaker: 
-    title: Session 3
+  - speaker: kerri-miller
+    title: 5 Things I Wish Someone Told Me Before I Started Programming
     description: 
     time: 60 minutes
     room: Hall A
-  - speaker: 
-    title: Session 4
+  - speaker: rachel-white
+    title: "Alt-Ctrl: Scream into this Arduino"
     description: 
     time: 60 minutes
     room: A-1600
@@ -51,24 +39,24 @@
     time: 90 minutes
     room: Hall A
 "1:30 PM":
-  - speaker: 
-    title: Session 5
+  - speaker: heidi-waterhouse
+    title: I Have ADD and So Can - Ooh, Shiny!
     description: 
     time: 60 minutes
     room: Hall A
-  - speaker: 
-    title: Session 6
+  - speaker: kim-berthiaume
+    title: Game design thinking for building products
     description: 
     time: 60 minutes
     room: A-1600
 "2:30 PM":
-  - speaker: 
-    title: Session 7
+  - speaker: jen-kramer
+    title: "Technical Talks: The Effective, The Unbearable, and It's Not About You"
     description: 
     time: 60 minutes
     room: Hall A
-  - speaker: 
-    title: Session 8
+  - speaker: rachade-hmamouchi
+    title: "Intelligence is in your Gene: Artificial intelligence applied to Personalized Medicine"
     description: 
     time: 60 minutes
     room: A-1600
@@ -79,13 +67,13 @@
     time: 30 minutes
     room: Hall A
 "4:00 PM":
-  - speaker: 
-    title: Session 9
+  - speaker: cassie-l-rheaume
+    title: "Ladies Learning Code: tips and tricks for successful mentoring"
     description: 
     time: 60 minutes
     room: Hall A
-  - speaker: 
-    title: Session 10
+  - speaker: anne-gauthier
+    title: "Security Testing: Unlocking the Benefits of a Hybrid Approach"
     description: 
     time: 60 minutes
     room: A-1600

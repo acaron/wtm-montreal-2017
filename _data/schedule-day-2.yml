@@ -5,24 +5,24 @@
     time: 60 minutes
     room: Hall A
 "10:00 AM":
-  - speaker: 
-    title: Session 11
+  - speaker: melinda-seckington
+    title: Learn. Reflect. Refactor.
     description: 
     time: 60 minutes
     room: Hall A
-  - speaker: 
-    title: Session 12
+  - speaker: catherine-proulx
+    title: "Shaky to solid: a test-based approach to legacy code"
     description: 
     time: 60 minutes
     room: A-1600
 "11:00 AM":
-  - speaker: 
-    title: Session 13
+  - speaker: tara-akhavan
+    title: When I realized I need to keep up my personal growth with the business growth
     description: 
     time: 60 minutes
     room: Hall A
   - speaker: 
-    title: Session 14
+    title: Coming soon
     description: 
     time: 60 minutes
     room: A-1600
@@ -36,39 +36,27 @@
   - speaker: 
     title: Lightning talks
     description: 
-    time: 30 minutes
+    time: 60 minutes
     room: Hall A
-"2:00 PM":
-  - speaker: 
-    title: Break
-    description: 
-    time: 14 minutes
-    room: Hall A
-"2:15 PM":
-  - speaker: 
-    title: Session 15
+"2:30 PM":
+  - speaker: jameson-hampton
+    title: There Is No Spoon? Understanding ‘Spoon Theory’ and Preventing Burnout
     description: 
     time: 60 minutes
     room: Hall A
-  - speaker: 
-    title: Session 16
+  - speaker: myriam-jessier
+    title: "Technical SEO in 2017: the basic, the bullsh*t, the future"
     description: 
     time: 60 minutes
     room: A-1600
-"3:15 PM":
-  - speaker: 
-    title: Break
-    description: 
-    time: 15 minutes
-    room: Hall A
 "3:30 PM":
-  - speaker: 
-    title: Session 17
+  - speaker: ashley-quinto-powell
+    title: Negotiating Salary for Women in Tech
     description: 
     time: 60 minutes
     room: Hall A
-  - speaker: 
-    title: Session 18
+  - speaker: rebecca-poulson
+    title: Virtual Reality for Web Developers with A-Frame
     description: 
     time: 60 minutes
     room: A-1600

@@ -112,6 +112,7 @@ section#buy-tickets {
     padding: 45px;
     position: relative;
     width: 680px;
+    overflow: hidden;
 
     &:after {
       border-style: solid;
@@ -172,6 +173,21 @@ section#subscription {
       margin-left: -5px;
       padding: 0 15px 0 13px;
     }
+  }
+}
+
+section#schedule {
+  .schedule-time {
+    height: 40px;
+    line-height: 40px;
+    background-color: #4285f4;
+    color: #fff;
+    font-weight: bold;
+    display: block;
+  }
+
+  .schedule-item {
+    padding: 15px 20px 0;
   }
 }
 

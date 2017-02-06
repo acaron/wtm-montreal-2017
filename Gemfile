@@ -1,8 +1,8 @@
 source "https://rubygems.org"
 ruby RUBY_VERSION
 
-gem "jekyll", "3.3.0"
+gem "jekyll"
 
 group :jekyll_plugins do
-  gem "github-pages", "104"
+  gem "github-pages"
 end

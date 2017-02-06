@@ -1,19 +1,21 @@
-<h4>
-  {{ schedule.title }}<br>
-  <small>{{ schedule.time }} | {{ schedule.room }}</small>
-</h4>
+<div class="schedule-item">
+  <h4>
+    {{ schedule.title }}<br>
+    <small>{{ schedule.time }} | {{ schedule.room }}</small>
+  </h4>
 
-{% if schedule.description %}
-  <p>
-    <button class="uk-button" data-uk-toggle="{target:'#learn-more-{{ schedule.title | slugify }}'}">Learn more</button>
-  </p>
+  {% if schedule.speaker %}
+    {% assign speaker = site.data.speakers[schedule.speaker] %}
+    <p>by {{ speaker.first_name }} {{ speaker.last_name }}</p>
+  {% endif %}
 
-  <div id="learn-more-{{ schedule.title | slugify }}" class="uk-hidden">
-    <p>{{ schedule.description }}</p>
-  </div>
-{% endif %}
+  {% if schedule.description %}
+    <p>
+      <button class="uk-button" data-uk-toggle="{target:'#learn-more-{{ schedule.title | slugify }}'}">Learn more</button>
+    </p>
 
-{% if schedule.speaker %}
-  {% assign speaker = site.data.speakers[schedule.speaker] %}
-  <p>by {{ speaker.name }}</p>
-{% endif %}
+    <div id="learn-more-{{ schedule.title | slugify }}" class="uk-hidden">
+      <p>{{ schedule.description }}</p>
+    </div>
+  {% endif %}
+</div>
