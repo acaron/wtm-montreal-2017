@@ -21,9 +21,9 @@
     description: "In today’s world, the business needs to grow fast or it will die. How fast can we grow our skill set? Is this a do-or-die game for us? What are the challenges we face as women in the high-tech industry? Why is it more challenging for women to reach strategic levels and maintain the position?"
     time: 60 minutes
     room: Hall A
-  - speaker: gema-parreno-piqueras
-    title: "Tensorflow: Limbic system reverse ingeeniering"
-    description: "Description of Tensorflow and Neural Nets architecture and dive into reverse ingenieering project using Tensorflow from Design to implementation"
+  - speaker: tara-z-manicsic
+    title: "Fill up my Chart, Put Some Data in it"
+    description: "Data Binding & Visualizations with Angular & Kendo UI. There is so much data out there that we could be utilizing. Let’s look at 3 ways to bind that data to our visualizations. From easily taking an array of data and making charts to filling our charts with live, ever-changing data."
     time: 60 minutes
     room: A-1600
 "12:00 PM":
