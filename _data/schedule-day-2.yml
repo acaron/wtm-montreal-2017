@@ -3,7 +3,7 @@
     title: Check-in & Breakfast
     description: 
     time: 60 minutes
-    room: Room A (A-1600)
+    room: Salle des pas perdus
 "10:00 AM":
   - speaker: melinda-seckington
     title: Learn. Reflect. Refactor.
@@ -31,7 +31,7 @@
     title: Lunch
     description: 
     time: 90 minutes
-    room: Room A (A-1600)
+    room:  Salle des pas perdus
 "1:30 PM":
   - speaker: 
     title: Lightning talks

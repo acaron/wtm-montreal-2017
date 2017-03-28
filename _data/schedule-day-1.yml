@@ -3,7 +3,7 @@
     title: Check-in & Breakfast
     description: 
     time: 60 minutes
-    room: Room A (A-1600)
+    room: Salle des pas perdus
 "9:00 AM":
   - speaker: alicia-v-carr
     title: "Keynote: How I become a developer later in life and as Women we can make our own"
@@ -37,7 +37,7 @@
     title: Lunch
     description: 
     time: 90 minutes
-    room: Room A (A-1600)
+    room: Salle des pas perdus
 "1:30 PM":
   - speaker: heidi-waterhouse
     title: I Have ADD and So Can - Ooh, Shiny!
@@ -65,7 +65,7 @@
     title: Break
     description: 
     time: 30 minutes
-    room: Room A (A-1600)
+    room: Salle des pas perdus
 "4:00 PM":
   - speaker: cassie-l-rheaume
     title: "Ladies Learning Code: tips and tricks for successful mentoring"
