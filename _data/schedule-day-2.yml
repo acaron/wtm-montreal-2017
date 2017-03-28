@@ -3,66 +3,66 @@
     title: Check-in & Breakfast
     description: 
     time: 60 minutes
-    room: Hall A
+    room: Room A (A-1600)
 "10:00 AM":
   - speaker: melinda-seckington
     title: Learn. Reflect. Refactor.
     description: "As developers, we’re constantly learning: whether it’s figuring out how to solve new problems and bugs, or focusing on new skills and knowledge to apply to our work. This talk looks at how to constantly reflect and refactor your own skills and values, creating your own idea of a “good” developer."
     time: 60 minutes
-    room: Hall A
+    room: Room A (A-1600)
   - speaker: catherine-proulx
     title: "Shaky to solid: a test-based approach to legacy code"
     description: "A pragmatic test-driven approach to the problem of inheriting unstable legacy code, based on real-life high-stakes projects. We will cover automated and manual testing with limited resources, but also strategies to build a culture of reliability, accountability and pride within a development team."
     time: 60 minutes
-    room: A-1600
+    room: Room B (A-1160)
 "11:00 AM":
   - speaker: tara-akhavan
     title: When I realized I need to keep up my personal growth with the business growth
     description: "In today’s world, the business needs to grow fast or it will die. How fast can we grow our skill set? Is this a do-or-die game for us? What are the challenges we face as women in the high-tech industry? Why is it more challenging for women to reach strategic levels and maintain the position?"
     time: 60 minutes
-    room: Hall A
+    room: Room A (A-1600)
   - speaker: tara-z-manicsic
     title: "Fill up my Chart, Put Some Data in it"
     description: "Data Binding & Visualizations with Angular & Kendo UI. There is so much data out there that we could be utilizing. Let’s look at 3 ways to bind that data to our visualizations. From easily taking an array of data and making charts to filling our charts with live, ever-changing data."
     time: 60 minutes
-    room: A-1600
+    room: Room B (A-1160)
 "12:00 PM":
   - speaker: 
     title: Lunch
     description: 
     time: 90 minutes
-    room: Hall A
+    room: Room A (A-1600)
 "1:30 PM":
   - speaker: 
     title: Lightning talks
     description: 
     time: 60 minutes
-    room: Hall A
+    room: Room A (A-1600)
 "2:30 PM":
   - speaker: jameson-hampton
     title: There Is No Spoon? Understanding ‘Spoon Theory’ and Preventing Burnout
     description: "Spoon theory is a metaphor about the finite energy we each have to do things in a day. Different people, especially underrepresented people, have to spend their energy in different ways. Understanding that is crucial to creating environments where our devs can do good work and lead fulfilling lives."
     time: 60 minutes
-    room: Hall A
+    room: Room A (A-1600)
   - speaker: myriam-jessier
     title: "Technical SEO in 2017: the basic, the bullsh*t, the future"
     description: "Search Engine Optimization is constantly evolving. Sadly there are many technical pitfalls ignored by developers that often render a website invisible to Google."
     time: 60 minutes
-    room: A-1600
+    room: Room B (A-1160)
 "3:30 PM":
   - speaker: ashley-quinto-powell
     title: Negotiating Salary for Women in Tech
     description: "One of the possible reasons for the wage gap is that women don’t negotiate, starting from our first job offer. I am excited to share the ins and outs of negotiating salary from the first job offer, to one you’ve had for some time, and want to cover both consulting gigs and full time employment."
     time: 60 minutes
-    room: Hall A
+    room: Room A (A-1600)
   - speaker: rebecca-poulson
     title: Virtual Reality for Web Developers with A-Frame
     description: "WebVR is incredibly exciting for its potential to democratize both the creation and consumption of VR content. We’ll start with a brief overview of the state of WebVR and UX best practices, then we’ll dive right in and show you how you can start developing VR with HTML and JS using A-Frame."
     time: 60 minutes
-    room: A-1600
+    room: Room B (A-1160)
 "4:30 PM":
   - speaker: 
     title: Closing
     description: 
     time: 30 minutes
-    room: Hall A
+    room: Room A (A-1600)
