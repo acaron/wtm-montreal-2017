@@ -3,83 +3,83 @@
     title: Check-in & Breakfast
     description: 
     time: 60 minutes
-    room: Hall A
+    room: Room A (A-1600)
 "9:00 AM":
   - speaker: alicia-v-carr
     title: "Keynote: How I become a developer later in life and as Women we can make our own"
     description: "How I became a developer in my 50th. My challenges, my assumption and my victories and why as women we are more powerful than we think. That we are more creative and have the skills to make our own."
     time: 60 minutes
-    room: Hall A
+    room: Room A (A-1600)
 "10:00 AM":
   - speaker: daniella-niyonkuru
     title: "How Tech Almost Missed Out on Me: A true story from a not-so-stereotypical techmaker"
     description: "My story begins in one of the poorest countries in the world and follows a nonlinear path to becoming a Production Engineer at the best place to work in Canada. I share in the hope that someone will challenge their ideas of what it is to be a techmaker and maybe even recognise a bit of themselves."
     time: 60 minutes
-    room: Hall A
+    room: Room A (A-1600)
   - speaker: nitya-narasimhan
     title: "Real-Time & Reactive Apps: Rapid Prototyping With Firebase"
     description: "Mobile devices dominate user interaction today, and modern users expect real-time, reactive & responsive apps. So how does an app developer balance execution speed with task complexity? Firebase can help. In this talk we’ll explore its capabilities by building a full-stack app with Firebase& ReactJS"
     time: 60 minutes
-    room: A-1600
+    room: Room B (A-1160)
 "11:00 AM":
   - speaker: kerri-miller
     title: 5 Things I Wish Someone Told Me Before I Started Programming
     description: "As an instructor and mentor with 20+ years of experience, I’m frequently asked for career advice by women just entering the field. This talk is a summary of the advice I give them, and what I wish I could’ve given myself based on all that I’ve learned."
     time: 60 minutes
-    room: Hall A
+    room: Room A (A-1600)
   - speaker: rachel-white
     title: "Alt-Ctrl: Scream into this Arduino"
     description: "As IoT integration into our daily lives becomes more and more advanced, what are the different ways we can control devices? There’s a plethora of sensors & modules you can use to interact with hardware, even some you can put in your own body, so let’s see how far we can take it."
     time: 60 minutes
-    room: A-1600
+    room: Room B (A-1160)
 "12:00 PM":
   - speaker: 
     title: Lunch
     description: 
     time: 90 minutes
-    room: Hall A
+    room: Room A (A-1600)
 "1:30 PM":
   - speaker: heidi-waterhouse
     title: I Have ADD and So Can - Ooh, Shiny!
     description: "Come listen to me talk about my own invisible neurodiversity and what it has taught me about being a good employee and becoming more effective because of who I am, not in spite of it. Women are especially under-diagnosed, and ADD looks different in women. Why does that matter? I’ll tell you."
     time: 60 minutes
-    room: Hall A
+    room: Room A (A-1600)
   - speaker: kim-berthiaume
     title: Game design thinking for building products
     description: "Game design has been refined over the past two decades so that the user gets the most immersive and engaging experience. Games delight players by offering them strong storytelling, a feel of mastery and good UX design. How can we use the power of game design thinking in software development?" 
     time: 60 minutes
-    room: A-1600
+    room: Room B (A-1160)
 "2:30 PM":
   - speaker: jen-kramer
     title: "Technical Talks: The Effective, The Unbearable, and It's Not About You"
     description: "What makes an excellent technical talk when presenting to a technical audience? Sometimes less is more. Learn top details from a longtime educator to improve your next talk."
     time: 60 minutes
-    room: Hall A
+    room: Room A (A-1600)
   - speaker: rachade-hmamouchi
     title: "Intelligence is in your Gene: Artificial intelligence applied to Personalized Medicine"
     description: "From robotics, to Netflix, Artificial Intelligence is everywhere today, progressing and changing the way we relate to technology and on each other. Now, AI can power your doctor’s diagnoses and your drug prescriptions. This talk will address its potential, provide examples and discuss challenges."
     time: 60 minutes
-    room: A-1600
+    room: Room B (A-1160)
 "3:30 PM":
   - speaker: 
     title: Break
     description: 
     time: 30 minutes
-    room: Hall A
+    room: Room A (A-1600)
 "4:00 PM":
   - speaker: cassie-l-rheaume
     title: "Ladies Learning Code: tips and tricks for successful mentoring"
     description: "From a LLC chapter lead experience, here are some precious tips and trick for successful inclusive mentoring.   This talk looks at how you can create a welcoming environment for women and how to teach and create content that’s relevant and helpful for absolute beginners from diverse perspective."
     time: 60 minutes
-    room: Hall A
+    room: Room A (A-1600)
   - speaker: anne-gauthier
     title: "Security Testing: Unlocking the Benefits of a Hybrid Approach"
     description: "Adopting a collaborative approach that combines both secure code review and penetration testing for assessing a web application’s cybersecurity posture."
     time: 60 minutes
-    room: A-1600
+    room: Room B (A-1160)
 "5:00 PM":
   - speaker: 
     title: Panel
     description: 
     time: 60 minutes
-    room: Hall A
+    room: Room A (A-1600)
