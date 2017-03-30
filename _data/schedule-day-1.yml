@@ -83,3 +83,9 @@
     description: 
     time: 60 minutes
     room: Room A (A-1600)
+"6:00 PM":
+  - speaker:
+    title: Party
+    description: "Networking & Karaoke Night - includes food & drink"
+    time: Undetermined
+    room: 100 Genies Resto Pub
