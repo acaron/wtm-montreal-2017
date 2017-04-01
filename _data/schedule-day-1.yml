@@ -16,9 +16,9 @@
     description: "My story begins in one of the poorest countries in the world and follows a nonlinear path to becoming a Production Engineer at the best place to work in Canada. I share in the hope that someone will challenge their ideas of what it is to be a techmaker and maybe even recognise a bit of themselves."
     time: 60 minutes
     room: Room A (A-1600)
-  - speaker: nitya-narasimhan
-    title: "Real-Time & Reactive Apps: Rapid Prototyping With Firebase"
-    description: "Mobile devices dominate user interaction today, and modern users expect real-time, reactive & responsive apps. So how does an app developer balance execution speed with task complexity? Firebase can help. In this talk we’ll explore its capabilities by building a full-stack app with Firebase& ReactJS"
+  - speaker: tara-z-manicsic
+    title: "Fill up my Chart, Put Some Data in it"
+    description: "Data Binding & Visualizations with Angular & Kendo UI. There is so much data out there that we could be utilizing. Let’s look at 3 ways to bind that data to our visualizations. From easily taking an array of data and making charts to filling our charts with live, ever-changing data."
     time: 60 minutes
     room: Room B (A-1160)
 "11:00 AM":
